@@ -284,6 +284,12 @@
 				jQuery("#go-top").fadeOut(fadeOutTime);
 			}
 
+			if (jQuery(window).scrollTop() >= pxShow) {
+				jQuery(".top-bar").fadeIn(fadeInTime);
+			} else {
+				jQuery(".top-bar").fadeOut(fadeOutTime);
+			}
+
 		}
 
 	});
