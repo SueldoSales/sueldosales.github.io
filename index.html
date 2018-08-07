@@ -32,10 +32,10 @@
   <meta name="twitter:description" content="Graduado em Sistemas de Informação, trabalha como Desenvolvedor Web focado principalmente em desenvolvimento front-end.">
   <meta name="twitter:image" content="https://sueldosales.github.io/img/code.jpg">
 
-  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,800" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="css/main.css" rel="stylesheet">
+  <link href="css/bulma.css" rel="stylesheet">
+  <link href="css/sueldo.css" rel="stylesheet"> 
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-65860491-8"></script>
@@ -43,7 +43,6 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'UA-65860491-8');
   </script>
     
@@ -51,306 +50,393 @@
 
 <body>
 
-  <main>
-
-    <header class="site-hero">
-      <div class="small-container">
-        <div class="about">
-          <img src="img/sueldosales.jpg" alt="Foto de Sueldo Sales">
-          <p id="header-logo">
-            Sueldo Sales
-          </p>
-          <h3>
-            <span class="secondary">Desenvolvedor Web</span>
-          </h3>
-          <p>Olá meu nome é <strong>Sueldo Sales</strong>, tenho <script>document.write(new Date().getFullYear() - 1990)</script> anos,
-            formado em <strong>Sistemas de Informação</strong>, e trabalho como <strong>Desenvolvedor Web</strong> focado
-            principalmente em desenvolvimento front-end. Sou bastante curioso e gosto de experimentar e
-            aprender as novidades da minha área. Tentando sempre melhorar e trazer novidades aos meus serviços.
-          </p>
-        </div>
-      </div>
-    </header>
-
-    <header class="site-navigation">
-      <div class="nav-container">
-        <div class="nav-brand underline">
-          <a href="index.html" id="logo">
-            Sueldo Sales
-          </a>
-        </div>
-        <i class="nav-toggle fa fa-2x fa-bars" aria-hidden="true" id="toggle-open"></i>
-        <nav class="nav-menu">
-          <div class="nav-mobile-header">
-            <span class="primary">S</span>
-            <strong class="secondary">S</strong>
-            <i class="nav-toggle fa fa-2x fa-close" aria-hidden="true" id="toggle-close"></i>
-          </div>
-          <a href="#skills">Habilidades</a>
-          <a href="#experience">Experiência</a>
-          <!-- <a href="#portfolio">Portfolio</a> -->
-          <!-- <a href="#projects">Projetos</a> -->
-          <a href="#contact">Contato</a>
-        </nav>
-      </div>
-    </header>  
-
-    <section class="section alt-bg" id="skills">
-      <header class="section-header">
-        <div class="small-container">
-          <h2>Habilidades Técnicas</h2>
-          <!-- <p>I specialize in front end development and design, with knowledge in system administration and back end development.</p> -->
-        </div>
-      </header>
-      <div class="container">
-        <div class="flex skills">
-          <div class="card">
-            <img src="img/html.png" alt="HTML5 Logo">
-            <h3>HTML</h3>
-          </div>
-          <div class="card">
-            <img src="img/css.png" alt="CSS3 Logo">
-            <h3>CSS</h3>
-          </div>
-          <div class="card">
-            <img src="img/js.png" alt="JavaScript Logo">
-            <h3>JavaScript</h3>
-          </div>
-          <div class="card">
-            <img src="img/react.png" alt="React Logo">
-            <h3>ReactJS</h3>
-          </div>          
-          <div class="card">
-            <img src="img/node.png" alt="Node.js Logo">
-            <h3>Node.js</h3>
-          </div>
-          <div class="card">
-            <img src="img/php.png" alt="PHP Logo">
-            <h3>PHP</h3>
-          </div>
-          <div class="card">
-            <img src="img/wp.png" alt="Wordpress Logo">
-            <h3>WordPress</h3>
-          </div>
-          <div class="card">
-            <img src="img/pwa.png" alt="Progressive Web App Logo">
-            <h3>PWA</h3>
-          </div>
-          <div class="card">
-            <img src="img/moodle-logo.png" alt="Moodle Logo">
-            <h3>Moodle LMS</h3>
-          </div>
-          <div class="card">
-            <img src="img/git.png" alt="Git Logo">
-            <h3>Git</h3>
-          </div>
-          <div class="card">
-            <img src="img/terminal.png" alt="Terminal Image">
-            <h3>Command Line</h3>
-          </div>
-          <div class="card">
-            <img src="img/linux.png" alt="Linux Logo">
-            <h3>Linux</h3>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section offset" id="experience">
-      <header class="section-header">
-        <div class="small-container">
-          <h2>Experiência</h2>
-          <!-- <p>Some of the professional positions I've held.</p> -->
-        </div>
-      </header>
-      <div class="container">
-<!--         <div class="flex job">
-          <div class="job-title">
-            <div class="job-company">
-                <img src="img/cdm.png" alt="Criadora de Mundos">
-              <div class="dates">2016 - Atual</div>
-            </div>
-          </div>
-          <div class="job-description">
-            <h3>Líder do Desenvolvimento Front-end</h3>
-            <ul>
-              <li>Desenvolvimento de sites e apps;</li>
-              <li>Desenvolvimento de apps com Realidade Aumentada e Realidade Virtual;</li>
-            </ul>
-          </div>
-        </div> -->
-        <div class="flex job">
-          <div class="job-title">
-            <div class="job-company">
-                <img src="img/ead.png" alt="IFRN - Campus EaD">
-              <div class="dates">2012 - Atual</div>
-            </div>
-          </div>
-          <div class="job-description">
-            <h3>Desenvolvedor Web</h3>
-            <ul>
-              <li>Desenvolvimento Front-end e Back-end;</li>
-              <li>Inserção de conteúdo, e desenvolvimento de temas e plugins em sites;</li>
-              <li>Suporte para Plataforma de aprendizagem Moodle (desenvolvimento de templates, alterações nas configurações do sistema, cadastramento, atendimento.)</li>
-              <li>Auxílio na formação dos profissionais</li>
-            </ul>
-          </div>
-        </div>
-        <div class="flex job">
-          <div class="job-title">
-            <div class="job-company">
-              <img src="img/amil.png" alt="Amil Natal/RN">
-              <div class="dates">2010 - 2011</div>
-            </div>
-          </div>
-          <div class="job-description">
-            <h3>Analista de suporte de T.I.</h3>
-            <ul>
-              <li>Suporte aos softwares utilizados;</li>
-              <li>Manutenção da rede (Linux);</li>
-              <li>Montagem e manutenção de computadores;</li>
-              <li>Auxílio aos usuários;</li>
-              <li>Infraestrutura de TI</li>
-            </ul>
-          </div>
-        </div>
-        <div class="flex job">
-          <div class="job-title">
-            <div class="job-company">
-              <img src="img/unp.png" alt="UnP - Universidade Potiguar">
-              <div class="dates">2010 - 2011</div>
-            </div>
-          </div>
-          <div class="job-description">
-            <h3>(Estágio) Analista de suporte de T.I.</h3>
-            <ul>
-              <li>Montagem e manutenção de computadores;</li>
-              <li>Auxílio aos usuários (Alunos, Professores, e Colaboradores)</li>
-            </ul>
-          </div>
-        </div>
-    </section>
-
-    <!-- <section class="section alt-bg" id="portfolio">
-      <header class="section-header">
-        <div class="small-container">
-          <h2>Portfolio</h2>
-          <p>Here are a few examples of my work.</p>
-          <p>
-            <a href="https://www.taniarascia.com/work" class="button">View All</a>
-          </p>
-        </div>
-      </header>
-      <div class="container">
-        <div class="flex portfolio">
-          <a class="card" target="_blank" href="http://cafebabareeba.com">
-            <img src="img/cbbr.png" alt="Cafe Ba-Ba-Reeba!">
-          </a>
-          <a class="card" target="_blank" href="http://stripburger.com">
-            <img src="img/sb.png" alt="Stripburger">
-          </a>
-          <a class="card" target="_blank" href="http://reel-club.com">
-            <img src="img/rc.png" alt="Reel Club">
-          </a>
-          <a class="card" target="_blank" href="http://tokiopub.com">
-            <img src="img/tp.png" alt="Tokio Pub">
-          </a>
-          <a class="card" target="_blank" href="http://krispykremepacificnw.com">
-            <img src="img/kkpnw.png" alt="Krispy Kreme Pacific Northwest">
-          </a>
-          <a class="card" target="_blank" href="http://shawscrabhouse.com">
-            <img src="img/shaws.png" alt="Shaw's Crab House">
-          </a>
-        </div>
-      </div>
-    </section> -->
-
-    <!-- <section class="section" id="projects">
-      <header class="section-header">
-        <div class="small-container">
-          <h2>Projects</h2>
-          <p>Some projects I made in my free time.</p>
-          <p>
-            <a href="https://github.com/taniarascia" class="button">View GitHub</a>
-          </p>
-        </div>
-      </header>
-      <div class="container">
-        <table>
-          <thead>
-            <tr>
-              <th>Project</th>
-              <th>Description</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><a href="https://taniarascia.github.io/new-moon/" target="_blank">New Moon</a></td>
-              <td>A dark syntax theme optimized for web development.</td>
-            </tr>
-            <tr>
-              <td><a href="https://taniarascia.github.io/primitive" target="_blank">Primitive</a></td>
-              <td>A Sass starterpack that provides helpful, browser-consistent styling for UI elements.</td>
-            </tr>
-            <tr>
-              <td><a href="https://taniarascia.github.io/coffee" target="_blank">Cafetography</a></td>
-              <td>A project to keep track of the flavor and ambiance of all the coffeeshops that I write at.</td>
-            </tr>
-            <tr>
-              <td><a href="https://taniarascia.com/music" target="_blank">Ivory &amp; Ivory</a></td>
-              <td>A list of all my musical recordings, in which I sing and play accordion.</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </section> -->
-
-    <section class="section alt-bg" id="contact">
-      <header class="section-header">
-        <div class="small-container">
-          <h2>Contato</h2>
-          <p>Entre em contato</p>
-        </div>
-      </header>
-      <div class="small-container">
-        <form action="https://formspree.io/sueldosales@gmail.com" method="post">
-          <label for="name">Nome</label>
-          <input type="text" name="name">
-          <label for="email">Email</label>
-          <input type="email" name="_replyto">
-          <label for="message">Mensagem</label>
-          <textarea name="message" cols="30" rows="10"></textarea>
-          <input type="text" name="_gotcha" style="display:none">
-          <input type="submit" value="Enviar">
-        </form>
-      </div>
-    </section>
-
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">      
-      <div class="social-icons">
-        <a href="https://github.com/sueldosales" target="_blank">
-          <i class="fa fa-github fa-2x" aria-hidden="true"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/sueldo-sales/" target="_blank">
-          <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
-        </a>
-      </div>
-    </div>
-  </footer>
-  <footer class="footer-bottom">
+  <!--section class="section">
     <div class="container">
-      <p>
-        Sueldo Sales - Desenvolvedor Web
+      <h1 class="title">
+        Hello World
+      </h1>
+      <p class="subtitle">
+        My first website with <strong>Bulma</strong>!
       </p>
     </div>
+  </section-->
+
+  <div style="width: 100%; height: 50px;">
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand container">
+        <a class="navbar-item" href="https://bulma.io">
+          <p style="font-family: 'Indie Flower', cursive; font-size: 30px;">Sueldo Sales</p>
+        </a>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Apresentação -->
+  <section class="section">
+    <div class="box container" id="presentation_box">
+      <div class="columns">
+        <div class="column">
+          <div id="presentation_avatar" class="card" style="width: 13em; margin: 0 auto;">
+            <div class="card-image">
+              <figure class="image is-square">
+                <img src="img/sueldosales.jpg" alt="Foto de Sueldo Sales">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content has-text-centered">
+                  <p class="title is-4">Sueldo Sales</p>
+                  <p class="subtitle is-6">Desenvolvedor Web</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-vertical-center">
+          <p style="width: 25em; font-size: 1.5em;">Olá, tenho <script>document.write(new Date().getFullYear() - 1990)</script> anos, formado em Sistemas de Informação,
+             trabalho como Desenvolvedor Web focado principalmente em desenvolvimento front-end. 
+             Sou bastante curioso e gosto de experimentar e aprender as novidades da minha área. 
+             Tentando sempre melhorar e trazer novidades aos meus serviços. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Habilidades -->
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column has-text-centered is-two-fifths is-vertical-center">
+          <h2 class="title is-2">Posso te ajudar com os meus conhecimentos em:</h2>
+        </div>
+
+        <div class="column has-text-centered">
+          <div class="tile is-ancestor">
+            <div class="tile is-parent">
+              <article class="tile is-child box">
+                <figure class="image is-48x48" style="margin: 0 auto;">
+                  <img src="img/html.png" alt="Placeholder image">
+                </figure>
+                <br>
+                <p class="subtitle">HTML</p>
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child box">
+                <figure class="image is-48x48" style="margin: 0 auto;">
+                  <img src="img/css.png" alt="Placeholder image">
+                </figure>
+                <br>
+                <p class="subtitle">CSS</p>
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child box">
+                <figure class="image is-48x48" style="margin: 0 auto;">
+                  <img src="img/js.png" alt="Placeholder image">
+                </figure>
+                <br>
+                <p class="subtitle">Javascript</p>
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child box">
+                <figure class="image is-48x48" style="margin: 0 auto;">
+                  <img src="img/react.png" alt="Placeholder image">
+                </figure>
+                <br>
+                <p class="subtitle">ReactJS</p>
+              </article>
+            </div>
+          </div>
+
+          <div class="tile is-ancestor">
+            <div class="tile is-parent">
+              <article class="tile is-child box">
+                <figure class="image is-48x48" style="margin: 0 auto;">
+                  <img src="img/node.png" alt="Placeholder image">
+                </figure>
+                <br>
+                <p class="subtitle">NodeJS</p>
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child box">
+                <figure class="image is-48x48" style="margin: 0 auto;">
+                  <img src="img/php.png" alt="Placeholder image">
+                </figure>
+                <br>
+                <p class="subtitle">PHP</p>
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child box">
+                <figure class="image is-48x48" style="margin: 0 auto;">
+                  <img src="img/wp.png" alt="Placeholder image">
+                </figure>
+                <br>
+                <p class="subtitle">Wordpress</p>
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child box">
+                <figure class="image is-48x48" style="margin: 0 auto;">
+                  <img src="img/pwa.png" alt="Placeholder image">
+                </figure>
+                <br>
+                <p class="subtitle">PWA</p>
+              </article>
+            </div>
+          </div>
+
+          <div class="tile is-ancestor">
+            <div class="tile is-parent">
+              <article class="tile is-child box">
+                <figure class="image is-48x48" style="margin: 0 auto;">
+                  <img src="img/moodle-logo.png" alt="Placeholder image">
+                </figure>
+                <br>
+                <p class="subtitle">Moodle LMS</p>
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child box">
+                <figure class="image is-48x48" style="margin: 0 auto;">
+                  <img src="img/git.png" alt="Placeholder image">
+                </figure>
+                <br>
+                <p class="subtitle">Git</p>
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child box">
+                <figure class="image is-48x48" style="margin: 0 auto;">
+                  <img src="img/terminal.png" alt="Placeholder image">
+                </figure>
+                <br>
+                <p class="subtitle">CLI</p>
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child box">
+                <figure class="image is-48x48" style="margin: 0 auto;">
+                  <img src="img/linux.png" alt="Placeholder image">
+                </figure>
+                <br>
+                <p class="subtitle">Linux</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </section>
+
+  <!-- Botão do currículo -->
+  <section class="section">
+    <a href="https://www.linkedin.com/in/sueldo-sales/">
+      <div class="box container" id="resume_button">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <p class="title is-4">Veja o meu currículo profissional</p>
+          </div>
+        </div>
+      </div>
+    </a>  
+  </section>
+
+  <!-- Projetos -->
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column has-text-centered is-vertical-center">
+          <h2 class="title is-3">Projetos em que estou envolvido:</h2>
+        </div>
+        
+        <div class="column">
+          <div class="card project-cards" style="margin: 0 auto; width: 18em;">
+            <div class="card-image">
+              <figure class="image">
+                <img src="img/picapaumudas.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">Pica Pau Mudas</p>
+                  <p class="subtitle is-6">Website</p>
+                </div>
+              </div>
+          
+              <div class="content">
+                Site para a empresa de Reflorestamento Pica-Pau Bio Invest. Desenvolvimento de plugin para o estoque.
+                <br>
+                <a href="#">#Wordpress</a> <a href="#">#CSS</a> <a href="#">#PHP</a>
+              </div>
+              <a href="https://picapaumudas.com.br/" class="button is-success is-outlined">Acesse</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card project-cards" style="margin: 0 auto; width: 18em;">
+            <div class="card-image">
+              <figure class="image">
+                <img src="img/codevolution.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">Codevolution</p>
+                  <p class="subtitle is-6">Website</p>
+                </div>
+              </div>
+          
+              <div class="content">
+                Site para o grupo de desenvolvedores Codevolution. No qual participo como Desenvolvedor Líder Front-End 
+                <br>
+                <a href="#">#HTML</a> <a href="#">#CSS</a> <a href="#">#Javascript</a>
+              </div>
+              <a href="https://codevolution.com.br/" class="button is-success is-outlined">Acesse</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="columns is-centered">
+        <div class="column">
+          <div class="card project-cards" style="margin: 0 auto; width: 18em;">
+            <div class="card-image">
+              <figure class="image">
+                <img src="img/portalead.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">Portal EaD IFRN</p>
+                  <p class="subtitle is-6">Website</p>
+                </div>
+              </div>
+          
+              <div class="content">
+                Desenvolvimento de tema e plugins Wordpress para o portal de Educação a Distância do IFRN.
+                <br>
+                <a href="#">#Wordpress</a> <a href="#">#HTML</a> <a href="#">#CSS</a> <a href="#">#PHP</a> <a href="#">#Javascript</a>
+              </div>
+              <a href="https://ead.ifrn.edu.br/portal/" class="button is-success is-outlined">Acesse</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card project-cards" style="margin: 0 auto; width: 18em;">
+            <div class="card-image">
+              <figure class="image">
+                <img src="img/moodle.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">Moodle EaD IFRN</p>
+                  <p class="subtitle is-6">Learning Management System</p>
+                </div>
+              </div>
+          
+              <div class="content">
+                Desenvolvimento de temas e plugins para adicionar necessidades internas da instituição ao Moodle.
+                <br>
+                <a href="#">#Moodle</a> <a href="#">#PHP</a> <a href="#">#CSS</a> <a href="#">#Javascript</a>
+              </div>
+              <a href="https://github.com/CoticEaDIFRN" class="button is-success is-outlined">Acesse</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card project-cards" style="margin: 0 auto; width: 18em;">
+            <div class="card-image">
+              <figure class="image">
+                <img src="img/criadora.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">Criadora de Mundos</p>
+                  <p class="subtitle is-6">Website</p>
+                </div>
+              </div>
+          
+              <div class="content">
+                Desenvolvimento de tema Wordpress baseado no design criado por <a href="https://rafaelarnaud.myportfolio.com/">Rafael Arnaud</a>.
+                <br>
+                <a href="#">#Wordpress</a> <a href="#">#PHP</a> <a href="#">#HTML</a> <a href="#">#CSS</a> <a href="#">#Javascript</a>
+              </div>
+              <a href="#" class="button is-danger is-outlined" disabled>Inativo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </section>
+
+  <!-- Contato -->
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column">
+          <h1 class="title">
+            Entre em contato
+          </h1>
+          <form action="https://formspree.io/sueldosales@gmail.com" method="post">
+            <div class="field">
+              <label class="label" for="name">Nome</label>
+              <div class="control">
+                <input class="input" type="text" name="name">
+              </div>
+            </div>
+
+            <div class="field">
+                <label class="label" for="email">Email</label>
+                <div class="control">
+                    <input class="input" type="email" name="email">
+                </div>
+            </div>
+            
+            <div class="field">
+              <label class="label" for="message">Mensagem</label>
+              <div class="control">
+                <textarea class="textarea" name="message"></textarea>
+              </div>
+            </div>
+            
+            <div class="field is-grouped">
+              <div class="control">
+                <button class="button is-success is-medium">Enviar</button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div class="column is-vertical-center">
+          <p class="has-text-centered" style="margin: 0 auto; font-size: 25px;">Gostaria de contratar ou deseja tirar alguma dúvida?<br> Contate-me.</p>
+        </div>
+      </div>
+    </div>  
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="content has-text-centered">
+        <br>
+        <h1 class="title" style="color: #3636364d;">DEO OMINIS GLORIA</h1>
+    </div>
   </footer>
 
-  <script src="js/scripts.js"></script>
-  <script src="js/prism.js"></script>
-  <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 </body>
 
 </html>
