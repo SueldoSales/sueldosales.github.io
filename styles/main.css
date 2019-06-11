@@ -1,0 +1,191 @@
+/**
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+/*
+Note: any .css or .scss files included in the 'styles' directory
+will be correctly compiled during `gulp serve` and `gulp`
+ */
+
+html, body {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+
+.navbar {
+  padding: 1.2rem 0;
+  box-shadow: none;
+  z-index: auto;
+}
+
+.navbar-item img {
+  max-height: 3.5rem;
+}
+
+.navbar-item svg {
+  font-size: 25px;
+}
+
+.navbar .navbar-menu a.button.is-primary.is-outlined {
+  border-width: 2px;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 1.2rem;
+}
+
+.navbar .button.is-primary.is-outlined {
+  background-color: transparent;
+  border-color: #84BF2C;
+  color: #84BF2C;
+}
+
+.navbar .button.is-primary.is-outlined:hover {
+  background-color: #84BF2C;
+  border-color: #84BF2C;
+  color: #fff;
+}
+
+.navbar-link.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover {
+  color: #84BF2C;
+}
+
+#logop svg {
+  width: 60px;
+}
+
+#logog {
+  display: none;
+}
+
+.hero.is-medium .hero-body {
+  padding-top: 0;
+}
+
+.hero h1 {
+  font-family: 'PT Serif Caption', serif;
+  margin-bottom: 5px !important;
+}
+
+.hero.is-white .title {
+  color: #003641;
+}
+
+.hero h2 {
+  font-family: 'PT Sans', sans-serif;
+}
+
+.hero.is-white .subtitle {
+  color: #03A688;
+}
+
+#skills {
+  background-color: #84BF2C;
+  color: #f2f2f2;
+}
+
+#skills h1 {
+  font-family: 'PT Serif Caption', serif;
+  color: #f2f2f2;
+}
+
+#skills p {
+  font-family: 'PT Sans', sans-serif;
+  color: #f2f2f2;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+#skills .title:not(:last-child) {
+  margin-bottom: 4rem;
+}
+
+#skills svg {
+  font-size: 4em;
+}
+
+#works h1 {
+  font-family: 'PT Serif Caption', serif;
+}
+
+#works > .container > .title:not(:last-child) {
+  margin-bottom: 5rem;
+}
+
+#works .card {
+  border-radius: 20px;
+}
+
+#works figure img {
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+  height: auto;
+}
+
+#works .card .title {
+  font-family: 'PT Serif Caption', serif;
+}
+
+#works .card .subtitle, .content {
+  font-family: 'PT Sans', sans-serif;
+}
+
+#works .image.is-4by3 {
+  padding-top: 60%;
+}
+
+#contact {
+  background-color: #03A688;
+}
+
+#contact h1 {
+  font-family: 'PT Serif Caption', serif;
+  color: #f2f2f2;
+}
+
+#contact p, #contact label {
+  font-family: 'PT Sans', sans-serif;
+  color: #f2f2f2;
+}
+
+#form {
+  margin: 0 130px;
+}
+
+@media screen and (max-width: 768px) {
+  #form {
+    margin: 10px;
+  }
+}
+
+#form .button.is-primary.is-outlined {
+  background-color: transparent;
+  border-width: medium;
+  border-color: #D2D904;
+  color: #D2D904;
+}
+
+#form .button.is-primary.is-outlined:hover {
+  background-color: #D2D904;
+  border-color: #D2D904;
+  color: #fff;
+}
+
+#footer h1 {
+  color: #3636364d;
+  font-family: 'PT Serif Caption', serif;
+}
