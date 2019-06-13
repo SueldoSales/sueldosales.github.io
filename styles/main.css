@@ -189,3 +189,20 @@ html, body {
   color: #3636364d;
   font-family: 'PT Serif Caption', serif;
 }
+
+#footer svg {
+  font-size: 25px;
+  margin: 13px;
+}
+
+#footer a {
+  color: #3636364d;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  color: #84BF2C;
+  cursor: pointer;
+  text-decoration: none;
+}
