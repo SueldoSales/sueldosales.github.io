@@ -1,28 +1,19 @@
 import React from 'react';
+import { Route, Switch } from 'react-router-dom';
 // eslint-disable-next-line no-unused-vars
 import Bulma from 'bulma';
 import './App.css';
 
-// Components imports
-import Header from './components/Header';
-import Hero from './components/Hero';
-import Skills from './components/Skills';
-import Works from './components/Works';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+// Pages imports
+import Home from './pages/Home';
+import Blog from './pages/Blog';
 
 function App() {
   return (
-    <div className="App">
-
-      <Header />
-      <Hero />
-      <Skills />
-      <Works />
-      <Contact />
-      <Footer />
-
-    </div>
+    <Switch>
+      <Route exact path="/" component={Home} />
+      <Route path="/blog" component={Blog} />
+    </Switch>
   );
 }
 

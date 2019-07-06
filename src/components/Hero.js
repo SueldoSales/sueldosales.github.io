@@ -11,7 +11,7 @@ class Hero extends Component {
                 <figure className="image is-128x128" style={{margin: '50px auto'}}>
                   <img className="is-rounded" alt="Foto de Sueldo Sales" src="./images/sueldosales.jpg" />
                 </figure>
-                <h1 className="title is-spaced is-size-1-desktop is-size-2-tablet is-size-3-mobile">Desenvolvedor Web</h1>
+                <h1 className="title is-spaced is-size-1-desktop is-size-2-tablet is-size-3-mobile">{this.props.title}</h1>
                 <h2 className="subtitle is-size-4-desktop">Sueldo Sales</h2>
               </div>
             </div>
