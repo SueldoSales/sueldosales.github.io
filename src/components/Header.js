@@ -103,7 +103,7 @@ class Header extends Component {
           <div className="navbar-menu" id="navMenu">
             <div className="navbar-start"></div>
             <div className="navbar-end">
-              <Link to="/blog">Blog</Link>
+              {/* <Link to="/blog">Blog</Link> */}
               <a href="https://www.github.com/sueldosales/" className="navbar-item"><i className="fab fa-github"></i></a>
               <a href="https://www.linkedin.com/in/sueldo-sales/" className="navbar-item"><i className="fab fa-linkedin-in"></i></a>
               <a href="https://www.instagram.com/sueldosales/" className="navbar-item"><i className="fab fa-instagram"></i></a>
