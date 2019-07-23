@@ -1,25 +1,342 @@
-<!doctype html><html lang="pt-br"><head><meta charset="utf-8"/><link rel="shortcut icon" href="/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#003641"><link rel="manifest" href="/manifest.json"/><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="description" content="Graduado em Sistemas de Informação, trabalha como Desenvolvedor Web focado principalmente em desenvolvimento front-end."><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="keywords" content="desenvolvimento web, front end, html5, css, scss, javascript, react, reactjs, pwa, progressive web app"><meta name="author" content="Sueldo Sales"><title>Sueldo Sales - Desenvolvedor Web</title><meta name="description" content="Graduado em Sistemas de Informação, trabalha como Desenvolvedor Web focado principalmente em desenvolvimento front-end."><meta itemprop="name" content="Sueldo Sales - Desenvolvedor Web"><meta itemprop="description" content="Graduado em Sistemas de Informação, trabalha como Desenvolvedor Web focado principalmente em desenvolvimento front-end."><meta itemprop="image" content="https://sueldosales.github.io/img/logog.png"><meta property="og:url" content="https://sueldosales.github.io"><meta property="og:type" content="website"><meta property="og:title" content="Sueldo Sales - Desenvolvedor Web"><meta property="og:description" content="Graduado em Sistemas de Informação, trabalha como Desenvolvedor Web focado principalmente em desenvolvimento front-end."><meta property="og:image" content="https://sueldosales.github.io/img/logog.png"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Sueldo Sales - Desenvolvedor Web"><meta name="twitter:description" content="Graduado em Sistemas de Informação, trabalha como Desenvolvedor Web focado principalmente em desenvolvimento front-end."><meta name="twitter:image" content="https://sueldosales.github.io/img/logog.png"><meta name="theme-color" content="#003641"><link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=PT+Serif+Caption&display=swap" rel="stylesheet"><script defer="defer" src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script><link href="/static/css/2.e07e82fc.chunk.css" rel="stylesheet"><link href="/static/css/main.aa21fa8f.chunk.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script src="scripts/main.js"></script><script>document.addEventListener('DOMContentLoaded', () => {
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sueldo Sales</title>
 
-        // Get all "navbar-burger" elements
-        const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Graduado em Sistemas de Informação, trabalha como Desenvolvedor Web focado principalmente em desenvolvimento front-end.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="desenvolvimento web, front end, html5, css, scss, javascript, react, reactjs, pwa, progressive web app">
+    <meta name="author" content="Sueldo Sales">
 
-        // Check if there are any navbar burgers
-        if ($navbarBurgers.length > 0) {
+    <meta name="description" content="Graduado em Sistemas de Informação, trabalha como Desenvolvedor Web focado principalmente em desenvolvimento front-end.">
+    <meta itemprop="name" content="Sueldo Sales - Desenvolvedor Web">
+    <meta itemprop="description" content="Graduado em Sistemas de Informação, trabalha como Desenvolvedor Web focado principalmente em desenvolvimento front-end.">
+    <meta itemprop="image" content="https://sueldosales.github.io/img/logog.png">
+    <meta property="og:url" content="https://sueldosales.github.io">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Sueldo Sales - Desenvolvedor Web">
+    <meta property="og:description" content="Graduado em Sistemas de Informação, trabalha como Desenvolvedor Web focado principalmente em desenvolvimento front-end.">
+    <meta property="og:image" content="https://sueldosales.github.io/img/logog.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sueldo Sales - Desenvolvedor Web">
+    <meta name="twitter:description" content="Graduado em Sistemas de Informação, trabalha como Desenvolvedor Web focado principalmente em desenvolvimento front-end.">
+    <meta name="twitter:image" content="https://sueldosales.github.io/img/logog.png">
 
-          // Add a click event on each of them
-          $navbarBurgers.forEach( el => {
-            el.addEventListener('click', () => {
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Signika&display=swap" rel="stylesheet">
 
-              // Get the target from the "data-target" attribute
-              const target = el.dataset.target;
-              const $target = document.getElementById(target);
-
-              // Toggle the "is-active" className on both the "navbar-burger" and the "navbar-menu"
-              el.classNameList.toggle('is-active');
-              $target.classNameList.toggle('is-active');
-
-            });
-          });
+    <style>
+        .field.has-addons {
+            justify-content: center;
         }
 
-      });</script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-65860491-8"></script><script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-65860491-8")</script><script>!function(l){function e(e){for(var r,t,n=e[0],o=e[1],u=e[2],f=0,i=[];f<n.length;f++)t=n[f],p[t]&&i.push(p[t][0]),p[t]=0;for(r in o)Object.prototype.hasOwnProperty.call(o,r)&&(l[r]=o[r]);for(s&&s(e);i.length;)i.shift()();return c.push.apply(c,u||[]),a()}function a(){for(var e,r=0;r<c.length;r++){for(var t=c[r],n=!0,o=1;o<t.length;o++){var u=t[o];0!==p[u]&&(n=!1)}n&&(c.splice(r--,1),e=f(f.s=t[0]))}return e}var t={},p={1:0},c=[];function f(e){if(t[e])return t[e].exports;var r=t[e]={i:e,l:!1,exports:{}};return l[e].call(r.exports,r,r.exports,f),r.l=!0,r.exports}f.m=l,f.c=t,f.d=function(e,r,t){f.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},f.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},f.t=function(r,e){if(1&e&&(r=f(r)),8&e)return r;if(4&e&&"object"==typeof r&&r&&r.__esModule)return r;var t=Object.create(null);if(f.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:r}),2&e&&"string"!=typeof r)for(var n in r)f.d(t,n,function(e){return r[e]}.bind(null,n));return t},f.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return f.d(r,"a",r),r},f.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},f.p="/";var r=window.webpackJsonp=window.webpackJsonp||[],n=r.push.bind(r);r.push=e,r=r.slice();for(var o=0;o<r.length;o++)e(r[o]);var s=n;a()}([])</script><script src="/static/js/2.8251327b.chunk.js"></script><script src="/static/js/main.fa9ebc85.chunk.js"></script></body></html>
+        #logo {
+            font-family: 'Signika', sans-serif;
+            font-size: 25px;
+        }
+
+        .navbar.is-dark {
+            background-color: #585858;
+            color: #f5f5f5;
+        }
+
+        .navbar-item img {
+            max-height: fit-content;
+        }
+
+        .hero {
+            font-family: 'Signika', sans-serif;
+        }
+
+        #copy {
+            padding-bottom: 0;
+        }
+
+        #email {
+            padding-top: 0;
+        }
+
+        #email p{
+            padding: 0 150px;
+        }
+
+        .copy1 {
+            padding: 50px;
+        }
+
+        #trabalhos img {
+            max-width: 45%;
+        }
+
+        #trabalhos .mudas {
+            max-width: 25%;
+        }
+
+        .footer figure {
+            margin: 0 auto;
+        }
+
+        .footer .content figure:not(:last-child) {
+            margin-bottom: 0;
+        }
+
+        .footer p {
+            margin: 0;
+            font-size: 25px;
+            font-family: 'Signika', sans-serif;
+        }
+
+        .footer svg {
+            font-size: 25px;
+            margin: 0 13px;
+        }
+
+        .footer a {
+            color: #4a4a4a;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            color: #00d1b2;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .copy1 {
+                padding: 20px;
+            }
+
+            #email p{
+                padding: 0;
+            }
+        }
+    </style>
+  </head>
+  <body>
+        <nav class="navbar is-dark">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a id="logo" class="navbar-item" href="/">
+                        Sueldo Sales
+                    <!-- <img src="./img/logogb.png" alt="Logo Sueldo Sales" width="112" height="28"> -->
+                    </a>
+                    <!-- <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </div> -->
+                </div>
+                    
+                <!-- <div id="navbarExampleTransparentExample" class="navbar-menu">
+                            
+                    <div class="navbar-end">
+                        <div class="navbar-item">
+                            <a class="navbar-item has-text-white" href="/">
+                                Home
+                            </a>
+                            <a href="https://www.github.com/sueldosales/" ><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/sueldo-sales/" ><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://www.instagram.com/sueldosales/" ><i class="fab fa-instagram"></i></a> 
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </nav>
+
+    <section class="hero is-medium is-primary is-bold">
+        <div class="hero-body">
+          <div class="container">
+            <h2 class="subtitle is-size-4">
+                Mantenha-se competitivo no mercado. 
+            </h2>
+            <br />
+            <h1 class="title is-size-1 is-hidden-mobile">
+                Tenha um Site,<br /> e impacte positivamente o seu negócio. 
+            </h1>
+            <h1 class="title is-size-2 is-hidden-tablet">
+                Tenha um Site,<br /> e impacte positivamente o seu negócio. 
+            </h1>
+            <br />
+            <h2 class="subtitle is-size-2">
+                Seja visto e lembrado.
+            </h2>
+            <a href="#email" class="button is-rounded is-large is-danger">Resolva seu problema</a>
+          </div>
+        </div>
+    </section>
+
+    <section id="copy" class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-half is-text-centered">
+                    <p><img src="./img/book.svg" alt=""></p>
+                    <p class="is-hidden-mobile" style="margin-top: 100px;"><img src="./img/coding.svg" alt=""></p>
+                    <p class="is-hidden-mobile" style="margin-top: 100px;"><img src="./img/github.svg" alt=""></p>
+                </div>
+                <div class="copy1 column is-half">
+                    <p class="is-size-4"><strong>Como vou te ajudar?</strong></p>
+                    <br />
+                    <p class="is-size-4">É possível que em suas pesquisas, buscando algum programador, o máximo que tenham te oferecido foi um  "layout bacana". "Vai ficar lindo", disseram eles.</p>
+                    <br />
+                    <p class="is-size-4">O que te ofereço hoje, não é produto semi pronto que vendem por aí. Mas uma nova criação, que atenda às necessidades de sua empresa.</p>
+                    <br />
+                    <p class="is-size-4">Fazer um bom site é mais do quê escolher um design bonito, é solucionar problemas e potencializar qualidades. É dar mais visibilidade à empresa; melhorar o contato com  os clientes; aumentar a agilidade no serviço; promover maior funcionalidade ao negócio. Enfim, é aparecer e dar boas vindas ao público. E criar esse ambiente, é o meu serviço.
+
+                    </p>
+                    <br />
+                    <p class="is-hidden-tablet"><img src="./img/coding.svg" alt=""></p>
+                    <br />
+                    <p class="is-size-4"><strong>Como vou fazer isso?</strong></p>
+                    <br />
+                    <li class="is-size-4">Criarei um design personalizado,  com a cara da sua empresa;</li>
+                    <br />
+                    <li class="is-size-4">Contarei sua história com uma narrativa própria. Aqui não tem texto padrão, nada de Ctrl C + Ctrl V. Cada vida é irrepetível, e tem suas próprias vitórias. Quero construir isso com você;</li>
+                    <br />
+                    <li class="is-size-4">Farei uma lista capturando o contato de potenciais clientes.  Você poderá aumentar o faturamento assim que seu site estiver ativo;</li> 
+                    <br />
+                    <li class="is-size-4">Não perca serviços. O contato com seu cliente será em tempo real, via WhatsApp, ou serviço de mensagem que preferir.</li>
+                    <br />
+                    <p class="is-size-4">Os recursos são inúmeros.</p>
+                    <br />
+                    <p class="is-hidden-tablet"><img src="./img/github.svg" alt=""></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="email" class="section">
+        <div class="container">
+            <div class="columns is-centered">
+                <div class="column has-text-centered">
+                    <p class="is-size-4"><strong>Como funciona?</strong></p>
+                    <br />
+                    <p class="is-size-4">Preencha seu e-mail logo abaixo e acesse à nossa página de orçamento. Lá conhecerei um pouco do seu perfil.</p>
+                    <br />
+                    <form action="./orcamento.html" method="get">
+                        <div class="field has-addons">
+                            <div class="control">
+                                <input type="email" class="input is-large" placeholder="Email" autocomplete="email" name="email" required >
+                            </div>
+                            <div class="control">
+                                <button class="button is-primary is-large" type="submit">
+                                    Solicitar
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    <br />
+                    <p class="is-size-4"><strong>Minha proposta fez sentido para você?</strong></p>
+                    <br />
+                    <p class="is-size-4">Espero que sim. Caso queira entrar nesse promissor e competitivo mercado chamado internet, tenho certeza que posso te ajudar.</p>
+                    <br />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="trabalhos" class="section">
+        <div class="container">
+            <p class="is-size-5 has-text-centered">Principais clientes:</p>
+            <br />
+            <div class="columns is-vcentered">
+                <div class="column has-text-centered">
+                    <p><a href="http://robertajales.com.br"><img src="./img/roberta.svg" alt="Dr. Roberta Jales"></a></p>
+                </div>
+                <div class="column has-text-centered">
+                    <p><a href="https://legoeducation.mcassab.com.br"><img src="./img/lego.png" alt="Lego Education"></a></p>
+                </div>
+                <div class="column has-text-centered">
+                    <p><a href="http://picapaumudas.com.br"></a><img class="mudas" src="./img/ppmudas.png" alt="Pica Pau Mudas"></p>
+                </div>
+            </div>
+
+            <div class="columns is-vcentered">
+                <div class="column has-text-centered">
+                    <p><a href="http://criadorademundos.com.br"><img src="./img/cdm.svg" alt="Criadora de Mundos"></a></p>
+                </div>
+                <div class="column has-text-centered">
+                    <p><a href="https://ead.ifrn.edu.br/portal/"><img src="./img/ifrn.png" alt="IFRN Natal Zona Leste"></a></p>
+                </div>
+                <div class="column has-text-centered">
+                    <p><a href="https://codevolution.com.br"><img src="./img/codevolution.png" alt="Codevolution"></a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="columns is-vcentered">
+                <div class="column content has-text-centered">
+                    <figure class="image is-64x64">
+                        <img class="is-rounded" src="./img/sueldosales.jpg">
+                    </figure>
+                    <p>Sueldo Sales</p>
+                    <a href="https://www.github.com/sueldosales/" ><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/sueldo-sales/" ><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/sueldosales/" ><i class="fab fa-instagram"></i></a>                   
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            // Add smooth scrolling to all links
+            $("a").on('click', function(event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
+
+                // Store hash
+                var hash = this.hash;
+
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function(){
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+                } // End if
+            });
+        });
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-65860491-8"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-65860491-8');
+    </script>
+
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+    
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/5d3741dd6d8083122839a6d8/default';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+    </body>
+</html>
