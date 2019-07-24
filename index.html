@@ -44,8 +44,27 @@
             color: #f5f5f5;
         }
 
-        .navbar-item img {
-            max-height: fit-content;
+        .navbar-item svg, .navbar-burger svg {
+            font-size: 25px;
+            margin: 0 5px;
+        }
+
+        .navbar-item a, .navbar-burger a {
+            color: #FAFAFA;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .navbar-item a:hover, .navbar-burger a:hover {
+            color: #00d1b2;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .navbar-burger {
+            display: inline-flex;
+            width: 105px;
+            padding-top: 12px;
         }
 
         .hero {
@@ -126,26 +145,22 @@
                         Sueldo Sales
                     <!-- <img src="./img/logogb.png" alt="Logo Sueldo Sales" width="112" height="28"> -->
                     </a>
-                    <!-- <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    </div> -->
+                    <div class="navbar-burger burger">
+                        <a href="https://www.github.com/sueldosales/" ><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/sueldo-sales/" ><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/sueldosales/" ><i class="fab fa-instagram"></i></a> 
+                    </div>
                 </div>
                     
-                <!-- <div id="navbarExampleTransparentExample" class="navbar-menu">
-                            
+                <div class="navbar-menu">                            
                     <div class="navbar-end">
                         <div class="navbar-item">
-                            <a class="navbar-item has-text-white" href="/">
-                                Home
-                            </a>
                             <a href="https://www.github.com/sueldosales/" ><i class="fab fa-github"></i></a>
                             <a href="https://www.linkedin.com/in/sueldo-sales/" ><i class="fab fa-linkedin-in"></i></a>
                             <a href="https://www.instagram.com/sueldosales/" ><i class="fab fa-instagram"></i></a> 
                         </div>
                     </div>
-                </div> -->
+                </div>
             </div>
         </nav>
 
