@@ -1,0 +1,39 @@
+[
+    {
+        "id": "04",
+        "url": "https://github.com/SueldoSales/BeTheHero",
+        "img": "https://github.com/SueldoSales/omnistack11/raw/master/screenshots/bth_login.png", 
+        "appname": "Be the Hero",
+        "apptype": "Aplicação Web",
+        "description": "Be the Hero é uma pequena plataforma que agrupa instituições de caridade ou ONGS que necessitam de ajuda em casos específicos.",
+        "techs": ["#NodeJS", "#ReactJS", "#SQLite", "#Javascript"]
+    },
+    {
+        "id": "03",
+        "url": "https://github.com/SueldoSales/BeTheHeroApp",
+        "img": "https://github.com/SueldoSales/BeTheHeroApp/raw/master/Screenshots/bth.jpg", 
+        "appname": "Be the Hero App",
+        "apptype": "Aplicativo",
+        "description": "Be the Hero é um aplicativo que agrupa instituições de caridade ou ONGS que necessitam de ajuda em casos específicos.",
+        "techs": ["#ReactNative", "#Expo", "#Javascript"]
+    },
+    {
+        "id": "02",
+        "url": "https://psicologia.netlify.com/",
+        "img": "https://github.com/SueldoSales/SuperLivesPsicologia/raw/master/screenshots/psi.png", 
+        "appname": "Super Lives Psicologia",
+        "apptype": "PWA (Progressive Web App)",
+        "description": "Aplicativo (Progressive Web App) da Super Lives Series de Psicologia do Dr. Ítalo Marsili.",
+        "techs": ["#PWA", "#WorkboxJS", "#TailWindCSS", "#Javascript"]
+    },
+    {
+        "id": "01",
+        "url": "https://santorosario.netlify.com/",
+        "img": "https://github.com/SueldoSales/SantoRosario/raw/master/screenshots/sr_gozosos.jpg", 
+        "appname": "O Santo Rosário",
+        "apptype": "PWA (Progressive Web App)",
+        "description": "Aplicativo (Progressive Web App) do livro, O Santo Rosário, de São Josemaria Escrivá.",
+        "techs": ["#PWA", "#WorkboxJS", "#BulmaCSS", "#Javascript"]
+    }
+
+]
