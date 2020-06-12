@@ -1,5 +1,23 @@
 [
     {
+        "id": "06",
+        "url": "https://menuapp.netlify.app/",
+        "img": "./img/menuapp.jpg", 
+        "appname": "MenuApp",
+        "apptype": "Aplicação Web",
+        "description": "Aplicação de cardápio com botão de contato para o WhatsApp para pequenas empresas do ramo da alimentação.",
+        "techs": ["#ReactJS", "#BulmaCSS", "#Javascript", "#CockPitCMS"]
+    },
+    {
+        "id": "05",
+        "url": "https://jobslistings.netlify.app/",
+        "img": "./img/jobslisting.jpg", 
+        "appname": "Jobs Listing",
+        "apptype": "Aplicação Web",
+        "description": "Aplicação simples que disponibiliza vagas de empregos e possibilita filtragem por área de trabalho ou linguagem de programação.",
+        "techs": ["#ReactJS", "#BulmaCSS", "#Javascript", "#MiniSearchJS"]
+    },
+    {
         "id": "04",
         "url": "https://github.com/SueldoSales/BeTheHero",
         "img": "https://github.com/SueldoSales/omnistack11/raw/master/screenshots/bth_login.png", 
