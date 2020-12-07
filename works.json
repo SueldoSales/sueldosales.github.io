@@ -29,7 +29,7 @@
     {
         "id": "05",
         "url": "https://codevolution.com.br/",
-        "img": "./img/cdv.jpg", 
+        "img": "./img/codevolution.jpg", 
         "appname": "Codevolution",
         "apptype": "Website",
         "description": "Site para o grupo de desenvolvedores Codevolution. No qual participo como Desenvolvedor Líder Front-End.",
